@@ -1,4 +1,3 @@
-/* eslint-disable jest/require-hook */
 export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
@@ -40,17 +39,17 @@ const student2 = new StudentHolberton('John', 'Doe', class2020);
 const student3 = new StudentHolberton(
   'Albert',
   'Clinton',
-  new HolbertonClass(2019, 'San Francisco'),
+  new HolbertonClass(2019, 'San Francisco')
 );
 const student4 = new StudentHolberton(
   'Donald',
   'Bush',
-  new HolbertonClass(2019, 'San Francisco'),
+  new HolbertonClass(2019, 'San Francisco')
 );
 const student5 = new StudentHolberton(
   'Jason',
   'Sandler',
-  new HolbertonClass(2019, 'San Francisco'),
+  new HolbertonClass(2019, 'San Francisco')
 );
 
 const listOfStudents = [student1, student2, student3, student4, student5];
